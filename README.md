@@ -8,7 +8,7 @@ This script generate a pipeline of steered MD simulation and pull the ligand in 
 *pip install Mechanize
 ## Run the script
 python Automate_sMD.py --axis (X,Y or Z) --rotate [rotation degree of your protein] --center [to put your structure at the end of the box] --box [box size] --kj [the fore you want to apply]
-**## Some important points you need to focus on them ##
+## Some important points you need to focus on them ##
 # 1) try to use your ligand pdb file as a simple name and protein pdb files same name as your ligand file name + _protein
 # exmp/ your ligand name -> ligand1.pdb and your protein file name -> ligand1_protein.pdb
 # 2) You need to put ligands pdb files only in pdb_files diectory
@@ -23,4 +23,4 @@ python Automate_sMD.py --axis (X,Y or Z) --rotate [rotation degree of your prote
 # Go to cGenFF website and open an acount -> get username and password https://cgenff.silcsbio.com/
 # Then in cGenFF_scraper/ folder open cGenFF_scraper.py script and change {user = input('Please insert your cGenFF username or enter Q to quit: ')} with user= 'your username'
 # and also remove print('Please input your password now: ') and change {psw = getpass()} with psw= 'your password'
-### *** NOW YOU CAN START THE SCRIPT FOR STEERED MD RUNNING *** ###**
+### *** NOW YOU CAN START THE SCRIPT FOR STEERED MD RUNNING *** ###
