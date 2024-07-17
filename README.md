@@ -24,3 +24,7 @@ Go to cGenFF website and open an acount -> get username and password https://cge
 Then in cGenFF_scraper/ folder open cGenFF_scraper.py script and change {user = input('Please insert your cGenFF username or enter Q to quit: ')} with user= 'your username'
 and also remove print('Please input your password now: ') and change {psw = getpass()} with psw= 'your password'
 ### *** NOW YOU CAN START THE SCRIPT FOR STEERED MD RUNNING *** ###
+
+**Cite**
+
+Please cite our publication: https://doi.org/10.1002/cbic.202400008
